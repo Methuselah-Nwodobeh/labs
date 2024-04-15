@@ -1,4 +1,4 @@
-package com.amalitech.upskilling.lab_three.reflections_annotations;
+package com.amalitech.upskilling.week_one.lab_three.reflections_annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

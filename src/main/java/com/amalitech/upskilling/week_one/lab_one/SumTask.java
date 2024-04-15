@@ -1,4 +1,6 @@
-package com.amalitech.upskilling.lab_one;
+package com.amalitech.upskilling.week_one.lab_one;
+
+import com.amalitech.upskilling.OutPut;
 
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
@@ -34,9 +36,8 @@ public class SumTask extends RecursiveTask<Long> {
         List<Long> inputList = List.of(1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L, 10L);
         long result;
         try (ForkJoinPool pool = new ForkJoinPool()) {
-//        long result = new SumTask(inputList, 5).invoke();
             result = pool.invoke(new SumTask(inputList, 5));
         }
-        System.out.println(result);
+        OutPut.printColoredTextBlock(String.valueOf(result), OutPut.Colors.MAGENTA);
     }
 }

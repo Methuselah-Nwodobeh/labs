@@ -1,4 +1,4 @@
-package com.amalitech.upskilling.lab_three.reflections_annotations;
+package com.amalitech.upskilling.week_one.lab_three.reflections_annotations;
 
 import com.amalitech.upskilling.OutPut;
 
@@ -10,7 +10,8 @@ public class ExecutionTimeLogger {
     }
 
     public static void logExecutionTime(Object target) {
-        System.out.println("starting calculation");
+        OutPut.printColoredTextBlock("starting calculation", OutPut.Colors.MAGENTA);
+        OutPut.printColoredTextBlock("------------------------------------------------------", OutPut.Colors.CYAN);
         Class<?> targetClass = target.getClass();
         Method[] methods = targetClass.getDeclaredMethods();
 
@@ -27,7 +28,7 @@ public class ExecutionTimeLogger {
                 long executionTime = endTime - startTime;
                 Duration duration = Duration.ofNanos(executionTime);
                 long seconds = duration.getSeconds();
-                OutPut.printColoredText("Method " + method.getName() + " executed in " + seconds + " seconds or" + executionTime + " nanoseconds", OutPut.Colors.CYAN);
+                OutPut.printColoredTextBlock("Method " + method.getName() + " executed in " + seconds + " seconds or" + executionTime + " nanoseconds", OutPut.Colors.CYAN);
             }
         }
     }

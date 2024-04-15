@@ -1,4 +1,6 @@
-package com.amalitech.upskilling.lab_one;
+package com.amalitech.upskilling.week_one.lab_one;
+
+import com.amalitech.upskilling.OutPut;
 
 import java.util.concurrent.ForkJoinPool;
 
@@ -12,11 +14,6 @@ public class ParallelMatrixMultiplication {
         int numberOfRowsOrB = inputMatrixB.length;
         int numberOfColumnsB = inputMatrixB[0].length;
 
-        if (numberOfColumnsA != numberOfRowsOrB) {
-            System.out.println("Matrix dimensions are not compatible for multiplication.");
-            return;
-        }
-
         int[][] result;
         try (ForkJoinPool pool = new ForkJoinPool()) {
             MatrixMultiplicationTask task = new MatrixMultiplicationTask(inputMatrixA, inputMatrixB,
@@ -24,11 +21,11 @@ public class ParallelMatrixMultiplication {
             result = pool.invoke(task);
         }
 
-        System.out.println("Matrix A:");
+        OutPut.printColoredTextBlock("Matrix A:", OutPut.Colors.MAGENTA);
         printMatrix(inputMatrixA);
-        System.out.println("Matrix B:");
+        OutPut.printColoredTextBlock("Matrix B:", OutPut.Colors.MAGENTA);
         printMatrix(inputMatrixB);
-        System.out.println("Result:");
+        OutPut.printColoredTextBlock("Result:", OutPut.Colors.MAGENTA);
         printMatrix(result);
     }
 
@@ -36,7 +33,7 @@ public class ParallelMatrixMultiplication {
     private static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             for (int element : row) {
-                System.out.print(element + " ");
+                OutPut.printColoredTextBlock(element + " ", OutPut.Colors.MAGENTA);
             }
             System.out.println();
         }

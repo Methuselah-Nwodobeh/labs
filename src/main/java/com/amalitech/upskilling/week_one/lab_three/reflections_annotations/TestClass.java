@@ -1,4 +1,6 @@
-package com.amalitech.upskilling.lab_three.reflections_annotations;
+package com.amalitech.upskilling.week_one.lab_three.reflections_annotations;
+
+import com.amalitech.upskilling.OutPut;
 
 public class TestClass {
     @LogExecutionTime
@@ -8,7 +10,7 @@ public class TestClass {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Test method 1 executed");
+        OutPut.printColoredTextBlock("Test method 1 executed", OutPut.Colors.CYAN);
     }
 
     public void testMethod2() {
@@ -17,6 +19,6 @@ public class TestClass {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Test method 2 executed");
+        OutPut.printColoredTextBlock("Test method 2 executed", OutPut.Colors.CYAN);
     }
 }

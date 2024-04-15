@@ -1,0 +1,177 @@
+3:03:41 PM: Executing 'signingReport --stacktrace'...
+
+Executing tasks: [signingReport] in project /home/amalitech-pc-10423/Desktop/personal_projects/flutter/wallcraft/android
+
+Starting Gradle Daemon...
+Gradle Daemon started in 1 s 13 ms
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes
+> Task :gradle:jar
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+Variant: release
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+Variant: profile
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :awesome_notifications:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :cloud_firestore:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :firebase_auth:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :firebase_core:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :firebase_crashlytics:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :firebase_dynamic_links:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :firebase_storage:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :geolocator_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :google_sign_in_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :path_provider_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+> Task :rive_common:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /home/amalitech-pc-10423/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: E6:48:DD:26:37:18:98:5E:39:E4:30:13:0A:78:79:C8
+SHA1: E5:21:26:12:A7:1C:E0:0B:BB:76:87:D9:EE:09:E6:C0:5B:F8:C7:81
+SHA-256: 60:A6:E2:31:B4:93:71:F1:CD:D4:3D:C9:25:E8:B9:3A:4F:19:53:EE:08:03:C2:9E:BD:A1:9A:09:20:48:4C:24
+Valid until: Saturday, July 12, 2053
+----------
+
+BUILD SUCCESSFUL in 26s
+16 actionable tasks: 14 executed, 2 up-to-date
+
+Build Analyzer results available
+3:04:09 PM: Execution finished 'signingReport --stacktrace'.

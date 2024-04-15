@@ -1,4 +1,4 @@
-package com.amalitech.upskilling.lab_three.custom_class_loader;
+package com.amalitech.upskilling.week_one.lab_three.custom_class_loader;
 
 import java.io.File;
 import java.io.IOException;

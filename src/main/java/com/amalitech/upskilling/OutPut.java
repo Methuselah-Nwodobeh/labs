@@ -18,10 +18,17 @@ public class OutPut {
         public static final String PURPLE = "\u001B[35m";
         public static final String CYAN = "\u001B[36m";
         public static final String WHITE = "\u001B[37m";
+        public static final String MAGENTA = "\033[035m";
+
+        public static final String BOLD = "\033[1m";
     }
 
     // Example method to print colored text
-    public static void printColoredText(String text, String color) {
+    public static void printColoredTextBlock(String text, String color) {
         System.out.println(color + text + Colors.RESET);
+    }
+
+    public static void printColoredTextInline(String text, String color) {
+        System.out.print(color + text + Colors.RESET);
     }
 }

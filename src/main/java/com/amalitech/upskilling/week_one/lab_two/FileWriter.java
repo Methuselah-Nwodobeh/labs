@@ -1,4 +1,6 @@
-package com.amalitech.upskilling.lab_two;
+package com.amalitech.upskilling.week_one.lab_two;
+
+import com.amalitech.upskilling.OutPut;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +21,7 @@ public class FileWriter {
      */
     private static int writeToFile(String inputText) {
 
-        File outputFile = new File("src/main/java/com/amalitech/upskilling/lab_two/writeto.txt");
+        File outputFile = new File("src/main/java/com/amalitech/upskilling/lab_two/resources/writeto.txt");
 
         try (FileChannel outputChannel = FileChannel.open(outputFile.toPath(), StandardOpenOption.CREATE, StandardOpenOption.WRITE)) {
             ByteBuffer buffer = ByteBuffer.allocate(BUFFER_SIZE);
@@ -37,6 +39,7 @@ public class FileWriter {
         // Input text to write to the output file
         String inputText = scanner.nextLine();
         System.out.println(writeToFile(inputText));
+        OutPut.printColoredTextBlock(String.valueOf(writeToFile(inputText)), OutPut.Colors.CYAN);
     }
 }
 
