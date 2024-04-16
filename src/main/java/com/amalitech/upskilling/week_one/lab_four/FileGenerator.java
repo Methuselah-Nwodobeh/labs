@@ -9,7 +9,7 @@ import java.util.Random;
 public class FileGenerator {
          public static void main(String[] args) {
         long fileSize = 1024 * 1024 * 1024L; // 1GB
-        File file = new File("src/main/java/com/amalitech/upskilling/lab_four/resources/1gb_file.txt");
+        File file = new File("src/main/java/com/amalitech/upskilling/week_one/lab_four/resources/1gb_file.txt");
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
             Random random = new Random();
