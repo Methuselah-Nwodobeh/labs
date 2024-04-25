@@ -1,4 +1,4 @@
-package com.amalitech.upskilling.week_two.lab_one.creational.builder.search_query.search_query;
+package com.amalitech.upskilling.week_two.lab_one.creational.builder.search_query;
 
 import java.util.ArrayList;
 import java.util.List;
